@@ -1,0 +1,40 @@
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.sbox{
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+    align-items: left;
+    align-self: flex-start;
+    
+}
+
+.abox.hover{
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+    align-items: right;
+    align-self: flex-end;
+}
+
+
+.content {
+    text-align: justify;
+
+
+}
+

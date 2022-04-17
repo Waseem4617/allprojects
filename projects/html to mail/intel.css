@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+
+.conteainer{
+
+    padding: auto;
+    margin: 10px 30% auto 30%;
+    align-self: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.formgroup{
+    padding: 10px;
+    margin: 5px;
+    border: 1px;
+    border-color: azure;
+    text-decoration: solid 5pc brown;
+}
+
+.message label{
+    align-self: center;
+    
+}
